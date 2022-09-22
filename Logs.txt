@@ -1,0 +1,11 @@
+2022-05-02 04:55:38:535 [Appium] Welcome to Appium v1.22.3
+2022-05-02 04:55:38:538 [Appium] Non-default server args:
+2022-05-02 04:55:38:539 [Appium]   sessionOverride: true
+2022-05-02 04:55:38:539 [Appium]   logFile: C:\Users\n\eclipse-workspace101\Appium3332\..\Appium3332\Logs.txt
+2022-05-02 04:55:38:594 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-05-02 04:55:38:887 [HTTP] --> GET /wd/hub/status
+2022-05-02 04:55:38:889 [HTTP] {}
+2022-05-02 04:55:38:894 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-05-02 04:55:38:896 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-05-02 04:55:38:909 [HTTP] <-- GET /wd/hub/status 200 18 ms - 68
+2022-05-02 04:55:38:910 [HTTP] 

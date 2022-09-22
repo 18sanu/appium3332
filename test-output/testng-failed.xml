@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestScripts.RareRabbit">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="stopServer"/>
+          <include name="parallelExecution"/>
+          <include name="buyShirt"/>
+          <include name="stopDataBaseConnection"/>
+          <include name="startServer"/>
+          <include name="closeApplication"/>
+          <include name="startDataBaseConnection"/>
+          <include name="stopParallelExecution"/>
+        </methods>
+      </class> <!-- TestScripts.RareRabbit -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
